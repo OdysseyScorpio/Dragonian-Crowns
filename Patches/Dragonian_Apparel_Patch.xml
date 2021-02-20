@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success></success>
+		<operations>
+           <li Class="PatchOperationReplace">
+              <xpath>/Defs/AlienRace.ThingDef_AlienRace[
+
+              defName="Dragonian" or
+              defName="Dragonian_Slave" or
+              defName="Dragonian_Player" or
+
+              defName="Dragonian_Male" or
+              defName="Dragonian_Slave_Male" or
+              defName="Dragonian_Player_Male" or
+              defName="Dragonian_Villager_M" or
+              defName="Dragonian_Town_Guard_M" or
+              defName="Dragonian_Town_Trader_M" or
+              defName="Dragonian_Town_Councilman_M" or
+
+              defName="Dragonian_Female" or
+              defName="Dragonian_Slave_Female" or
+              defName="Dragonian_Player_Female" or
+              defName="Dragonian_Villager_F" or
+              defName="Dragonian_Town_Guard_F" or
+              defName="Dragonian_Town_Trader_F" or
+              defName="Dragonian_Town_Councilman_F"
+              
+              ]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath> 
+              <value>
+                  <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+              </value>
+           </li>
+  
+           <li Class="PatchOperationReplace">
+              <xpath>/Defs/AlienRace.ThingDef_AlienRace[
+
+              defName="Dragonian" or
+              defName="Dragonian_Slave" or
+              defName="Dragonian_Player" or
+
+              defName="Dragonian_Female" or
+              defName="Dragonian_Slave_Female" or
+              defName="Dragonian_Player_Female" or
+              defName="Dragonian_Villager_F" or
+              defName="Dragonian_Town_Guard_F" or
+              defName="Dragonian_Town_Trader_F" or
+              defName="Dragonian_Town_Councilman_F"
+              
+              ]/alienRace/raceRestriction/apparelList</xpath> 
+              <value>
+                  <apparelList>
+                        
+                     <li>SND_F_Steel_Crown</li>
+                     <li>SND_F_Gold_Crown</li>
+                     <li>SND_F_Silver_Crown</li>
+                     <li>SND_F_Plasteel_Crown</li>
+
+                  </apparelList>
+              </value>
+           </li>
+
+            <li Class="PatchOperationReplace">
+              <xpath>/Defs/AlienRace.ThingDef_AlienRace[
+
+              defName="Dragonian" or
+              defName="Dragonian_Slave" or
+              defName="Dragonian_Player" or
+
+              defName="Dragonian_Male" or
+              defName="Dragonian_Slave_Male" or
+              defName="Dragonian_Player_Male" or
+              defName="Dragonian_Villager_M" or
+              defName="Dragonian_Town_Guard_M" or
+              defName="Dragonian_Town_Trader_M" or
+              defName="Dragonian_Town_Councilman_M"
+              
+              ]/alienRace/raceRestriction/apparelList</xpath> 
+              <value>
+                  <apparelList>
+                        
+                     <li>SND_M_Steel_Crown</li>
+                     <li>SND_M_Gold_Crown</li>
+                     <li>SND_M_Silver_Crown</li>
+                     <li>SND_M_Plasteel_Crown</li>
+
+                  </apparelList>
+              </value>
+           </li>
+		</operations>
+	</Operation>
+</Patch>			

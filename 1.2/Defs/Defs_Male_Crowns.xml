@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Class="Dragonian.CustomThingDef" ParentName="DR_HatMakeableBase">
+		<defName>SND_M_Steel_Crown</defName>
+		<label>Steel Dragonian Crown [M]</label>
+		<description>It's a Dragonian crown for males.</description>
+		<recipeMaker Inherit="False">
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<workSkill>Crafting</workSkill>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Items/Male/Steel/SND</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.1</Mass>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.10</SocialImpact>
+			<NegotiationAbility>1.0</NegotiationAbility>
+			<Beauty>0.5</Beauty>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>100</Steel>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<wornGraphicPath>Items/Male/Steel/SND</wornGraphicPath>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef Class="Dragonian.CustomThingDef" ParentName="DR_HatMakeableBase">
+		<defName>SND_M_Gold_Crown</defName>
+		<label>Gold Dragonian Crown [M]</label>
+		<description>It's a Dragonian crown for males.</description>
+		<recipeMaker Inherit="False">
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<workSkill>Crafting</workSkill>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Items/Male/Gold/SND</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.1</Mass>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.10</SocialImpact>
+			<NegotiationAbility>1.0</NegotiationAbility>
+			<Beauty>0.5</Beauty>
+		</equippedStatOffsets>
+		<costList>
+			<Gold>100</Gold>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<wornGraphicPath>Items/Male/Gold/SND</wornGraphicPath>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef Class="Dragonian.CustomThingDef" ParentName="DR_HatMakeableBase">
+		<defName>SND_M_Silver_Crown</defName>
+		<label>Silver Dragonian Crown [M]</label>
+		<description>It's a Dragonian crown for males.</description>
+		<recipeMaker Inherit="False">
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<workSkill>Crafting</workSkill>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Items/Male/Silver/SND</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.1</Mass>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.10</SocialImpact>
+			<NegotiationAbility>1.0</NegotiationAbility>
+			<Beauty>0.5</Beauty>
+		</equippedStatOffsets>
+		<costList>
+			<Silver>100</Silver>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<wornGraphicPath>Items/Male/Silver/SND</wornGraphicPath>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef Class="Dragonian.CustomThingDef" ParentName="DR_HatMakeableBase">
+		<defName>SND_M_Plasteel_Crown</defName>
+		<label>Plasteel Dragonian Crown [M]</label>
+		<description>It's a Dragonian crown for males.</description>
+		<recipeMaker Inherit="False">
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<workSkill>Crafting</workSkill>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Items/Male/Plasteel/SND</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.1</Mass>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.10</SocialImpact>
+			<NegotiationAbility>1.0</NegotiationAbility>
+			<Beauty>0.5</Beauty>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>100</Plasteel>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<wornGraphicPath>Items/Male/Plasteel/SND</wornGraphicPath>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+</Defs>

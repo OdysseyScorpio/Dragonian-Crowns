@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef Class="Dragonian.CustomThingDef" ParentName="DR_HatMakeableBase">
+        <defName>SND_F_Steel_Crown</defName>
+        <label>Steel Dragonian Crown [F]</label>
+        <description>It's a Dragonian crown for females.</description>
+        <recipeMaker Inherit="False">
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <workSkill>Crafting</workSkill>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Items/Female/Steel/SND</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>0.1</Mass>
+            <EquipDelay>1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.10</SocialImpact>
+            <NegotiationAbility>1.0</NegotiationAbility>
+            <Beauty>0.5</Beauty>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>100</Steel>
+        </costList>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <wornGraphicPath>Items/Female/Steel/SND</wornGraphicPath>
+            <gender>Female</gender>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef Class="Dragonian.CustomThingDef" ParentName="DR_HatMakeableBase">
+        <defName>SND_F_Gold_Crown</defName>
+        <label>Gold Dragonian Crown [F]</label>
+        <description>It's a Dragonian crown for females.</description>
+        <recipeMaker Inherit="False">
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <workSkill>Crafting</workSkill>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Items/Female/Gold/SND</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>0.1</Mass>
+            <EquipDelay>1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.10</SocialImpact>
+            <NegotiationAbility>1.0</NegotiationAbility>
+            <Beauty>0.5</Beauty>
+        </equippedStatOffsets>
+        <costList>
+            <Gold>100</Gold>
+        </costList>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <wornGraphicPath>Items/Female/Gold/SND</wornGraphicPath>
+            <gender>Female</gender>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef Class="Dragonian.CustomThingDef" ParentName="DR_HatMakeableBase">
+        <defName>SND_F_Silver_Crown</defName>
+        <label>Silver Dragonian Crown [F]</label>
+        <description>It's a Dragonian crown for females.</description>
+        <recipeMaker Inherit="False">
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <workSkill>Crafting</workSkill>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Items/Female/Silver/SND</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>0.1</Mass>
+            <EquipDelay>1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.10</SocialImpact>
+            <NegotiationAbility>1.0</NegotiationAbility>
+            <Beauty>0.5</Beauty>
+        </equippedStatOffsets>
+        <costList>
+            <Silver>100</Silver>
+        </costList>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <wornGraphicPath>Items/Female/Silver/SND</wornGraphicPath>
+            <gender>Female</gender>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef Class="Dragonian.CustomThingDef" ParentName="DR_HatMakeableBase">
+        <defName>SND_F_Plasteel_Crown</defName>
+        <label>Plasteel Dragonian Crown [F]</label>
+        <description>It's a Dragonian crown for females.</description>
+        <recipeMaker Inherit="False">
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <workSkill>Crafting</workSkill>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Items/Female/Plasteel/SND</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>0.1</Mass>
+            <EquipDelay>1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.10</SocialImpact>
+            <NegotiationAbility>1.0</NegotiationAbility>
+            <Beauty>0.5</Beauty>
+        </equippedStatOffsets>
+        <costList>
+            <Plasteel>100</Plasteel>
+        </costList>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <wornGraphicPath>Items/Female/Plasteel/SND</wornGraphicPath>
+            <gender>Female</gender>
+        </apparel>
+    </ThingDef>
+</Defs>
